@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+}
+</style>
     <title>My first website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="design.css">
 </head>
 <body>
-    <div class="container">
-        <header class="site-header">
-            <h1>Welcome to my website</h1>
-            <p class="lead">This is my first webpage in local.</p>
-        </header>
 
-        <div class="controls">
-            <button class="btn btn-primary" onclick="alert('Hi !')">Click here</button>
-            <button class="btn btn-outline" onclick="alert('I warned you.')">Do not click here</button>
-        </div>
+    <h1>
+        Welcome to my website
+    </h1>
+    <p>This is my first webpage in local.</p>
 
-        <figure class="photo-card">
-            <img src="img/photo.png" alt="Ma photo">
-            <figcaption>Photo from the local folder</figcaption>
-        </figure>
+    <button onclick="alert('Hi !')">
+        Click here
+    </button>
+<button onclick="alert('I warned you.')">
+         
+    Do not click here
+    </button>
 
-        <section class="code-sample">
-            <h2>C++ Example</h2>
-            <pre class="cpp"><code>#include &lt;iostream&gt;
-int main(){
-    std::cout &lt;&lt; "Hello, world!" &lt;&lt; std::endl;
-    return 0;
-}</code></pre>
-        </section>
-    </div>
+<p><img src="img/photo.png" alt=""></p>
 </body>
 </html>
