@@ -1,9 +1,9 @@
 /* Simple responsive design and styles */
 :root{
-  --bg:#f7f8fb;
+  --bg:#4d64a8;
   --card:#ffffff;
   --muted:#6b7280;
-  --accent:#2b6ef6;
+  --accent:#790404;
   --accent-2:#0ea5a4;
   --radius:8px;
 }
@@ -33,10 +33,6 @@ body{
 .photo-card{background:var(--card);padding:12px;border-radius:var(--radius);box-shadow:0 2px 6px rgba(2,6,23,0.06);display:inline-block}
 .photo-card img{display:block;max-width:320px;width:100%;height:auto;border-radius:4px}
 .photo-card figcaption{font-size:13px;color:var(--muted);margin-top:6px}
-.code-sample{margin-top:28px;background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(245,247,250,0.9));padding:14px;border-radius:8px;border:1px solid rgba(15,23,42,0.03)}
-.code-sample h2{margin:0 0 8px 0;font-size:20px}
-pre.cpp{background:#0b1220;color:#dbeafe;padding:12px;border-radius:6px;overflow:auto;margin:0;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;font-size:13px}
-pre.cpp code{white-space:pre}
 
 @media (max-width:520px){
   .site-header h1{font-size:26px}
