@@ -1,28 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil d'Étudiant - EFI Casablanca</title>
+    <link rel="stylesheet" href="design.css">
 <style>
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 </style>
-    <title>My first website</title>
 </head>
 <body>
+    <div class="container">
+        <div class="site-header">
+            <h1>École Française Internationale</h1>
+            <p class="lead">Casablanca, Maroc</p>
+        </div>
 
-    <h1>
-        Welcome to my website
-    </h1>
-    <p>This is my first webpage in local.</p>
+        <div class="student-profile">
+            <div class="profile-header">
+                <div class="profile-image">
+                    <img src="img/photo.png" alt="Photo de profil d'étudiant">
+                </div>
+                <div class="profile-info">
+                    <h2>Iyad Benhayoun</h2>
+                    <div class="subtitle">Classe de 5ème</div>
+                    
+                    <div class="info-item">
+                        <span class="info-label">Âge :</span>
+                        <span class="info-value">12 ans</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Niveau :</span>
+                        <span class="info-value">5ème (Cycle 4)</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">École :</span>
+                        <span class="info-value">EFI Casablanca</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Localisation :</span>
+                        <span class="info-value">Casablanca, Maroc</span>
+                    </div>
+                </div>
+            </div>
 
-    <button onclick="alert('Hi !')">
-        Click here
-    </button>
-<button onclick="alert('I warned you.')">
-         
-    Do not click here
-    </button>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Ans</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5ème</div>
+                    <div class="stat-label">Classe</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">2024-2025</div>
+                    <div class="stat-label">Année Scolaire</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">EFI</div>
+                    <div class="stat-label">Établissement</div>
+                </div>
+            </div>
 
-<p><img src="img/photo.png" alt=""></p>
+            <div style="margin-top:32px; padding-top:32px; border-top:2px solid #e5e7eb;">
+                <h3 style="color:var(--accent-dark); margin-bottom:16px;">À propos</h3>
+                <p style="color:var(--muted); line-height:1.8;">
+                    Iyad Benhayoun est un étudiant de 12 ans en classe de 5ème à l'École Française Internationale de Casablanca. 
+                    Engagé dans ses études et passionné par l'apprentissage, il représente les valeurs d'excellence académique 
+                    et de diversité culturelle de son établissement.
+                </p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" onclick="alert('Bienvenue au profil d\'Iyad !')">
+                Plus d'informations
+            </button>
+            <button class="btn btn-outline" onclick="alert('École Française Internationale à Casablanca')">
+                À propos de l\'école
+            </button>
+        </div>
+    </div>
 </body>
 </html>
