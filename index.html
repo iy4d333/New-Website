@@ -13,9 +13,15 @@ body {
 </head>
 <body>
     <div class="container">
-        <div class="site-header">
-            <h1>French International School</h1>
-            <p class="lead">Casablanca, Morocco</p>
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:32px; margin-bottom:32px; flex-wrap:wrap;">
+            <div class="site-header" style="flex:1; min-width:300px;">
+                <h1>French International School</h1>
+                <p class="lead">Casablanca, Morocco</p>
+            </div>
+            <div style="flex:0 0 auto; text-align:center;">
+                <p style="color:white; margin-bottom:12px; font-weight:600; font-size:14px;">School Video</p>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/4LkUASSVHrY" title="French International School" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:var(--radius); box-shadow:var(--shadow-sm);"></iframe>
+            </div>
         </div>
 
         <div class="student-profile">
